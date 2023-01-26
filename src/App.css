@@ -31,7 +31,7 @@ form{
 }
 .p{
   font-size: small;
-  margin: 8px;
+  margin-bottom: 12px;
   color: black;
 }
 .button{
@@ -41,7 +41,7 @@ form{
   height: 40px;
   color: white;
   font-weight: 500;
-  margin: 12px;
+  margin-top: 12px;
   border-radius: 14px;
   background: linear-gradient(to right, #882AE2, #6316EC, #3E01F0);
 }
@@ -66,7 +66,7 @@ span {
   margin: 10px;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  text-align: center;
   flex-direction: column;
 }
 .label{
@@ -84,4 +84,38 @@ span {
 }
 .inp:invalid[focus = "true"] {
   border: 1px solid red;
+}
+.upload{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  color: gray;
+  background-color: white;
+  border-radius: 12px;
+}
+.file{
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #781EE1;
+  display: inline-block;
+  color: #9633FF;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: transparent;
+}
+.image-wrap{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img{
+  width:200px; 
+  height:200px 
 }
